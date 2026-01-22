@@ -487,13 +487,13 @@ section {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
     margin-top: 40px;
 }
 
 .service-item {
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     background: #f9f9f9;
     transition: all 0.3s ease;
@@ -520,14 +520,14 @@ section {
 }
 
 .service-item h3 {
-    font-size: 1.1rem;
-    margin: 15px 0 10px;
+    font-size: 1rem;
+    margin: 10px 0 8px;
     font-weight: 600;
 }
 
 .service-item p {
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: 0.85rem;
+    line-height: 1.4;
     color: #666;
 }
 
